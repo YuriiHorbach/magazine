@@ -2,6 +2,7 @@
 
 body{
 	font: 13px/1.4 Arial, Tahoma, Verdana, sans-serif;
+	background: url(../images/main-bg.jpeg);
 }
 
 a{
