@@ -6,8 +6,16 @@ body{
 }
 
 a{
-	text-decoration: 0;
+	text-decoration: none;
+	color: #5e5e5e;
+}
+a:hover{
+	text-decoration: underline;
+	color: #5e5e5e;
+}
 
+h2{
+	font-size: 18px;
 }
 
 #header{
@@ -63,8 +71,9 @@ a{
 
 #in-menu a:hover{
 	background: url(../images/background-hover.png) repeat-x;
-	
+	text-decoration: none;
 }
+
 
 #sidebar{
 	width: 300px;
@@ -74,8 +83,25 @@ a{
 }
 
 #content{
-	height: 400px;
-	background: #62ffa4;
 	margin-right: 300px;
 }
+
+.thumbnail{
+	float: left;
+}
+
+.thumbnail img{
+	border: 3px solid #e0e0e0;
+}
+
+.post-categories, .post-published{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #aaaaaa;
+}
+
+.clear{
+	clear: both;
+}
+
+
 
