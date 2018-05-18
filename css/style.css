@@ -1,0 +1,27 @@
+@import url(reset.css);
+
+#header{
+	min-width: 960px;
+	max-width: 1200px;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+#logo{
+	width: 241px;
+	height: 46px;
+	float: left;
+	margin: 43px 0 42px 160px;
+}
+
+#banner{
+	width: 468px;
+	height: 60px;
+	float: right;
+	margin: 35px 160px 36px 
+}
+
+#top-menu{
+	background: #373737;
+	height: 47px;
+}
