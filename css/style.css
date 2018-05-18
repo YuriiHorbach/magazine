@@ -1,5 +1,14 @@
 @import url(reset.css);
 
+body{
+	font: 13px/1.4 Arial, Tahoma, Verdana, sans-serif;
+}
+
+a{
+	text-decoration: 0;
+
+}
+
 #header{
 	min-width: 960px;
 	max-width: 1200px;
@@ -22,6 +31,37 @@
 }
 
 #top-menu{
-	background: url(../images/header-background.png);
+	background: url(../images/header-background.png) repeat-x;
 	height: 49px;
+	min-width: 960px;
+
 }
+
+#in-menu, #wrapper{
+	min-width: 960px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+#in-menu ul li{
+	float: left;
+	margin:0 auto;
+	text-transform: uppercase;
+	font: 12px Arial;
+}
+
+#in-menu a{
+	font: 12px;
+	color: #ebebeb;
+	text-decoration: none;
+	padding: 17px 15px;
+	display: block;
+	
+}
+
+#in-menu a:hover{
+	background: url(../images/background-hover.png) repeat-x;
+	
+}
+
