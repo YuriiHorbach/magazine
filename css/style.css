@@ -3,6 +3,7 @@
 body{
 	font: 13px/1.4 Arial, Tahoma, Verdana, sans-serif;
 	background: url(../images/main-bg.jpeg);
+	color: #5e5e5e;
 }
 
 a{
@@ -16,6 +17,8 @@ a:hover{
 
 h2{
 	font-size: 18px;
+	line-height: 1.1;
+	margin: 0 0 6px 0;
 }
 
 #header{
@@ -84,6 +87,13 @@ h2{
 
 #content{
 	margin-right: 300px;
+	padding: 30px 38px 0 10px
+}
+
+.post{
+	border-bottom: 1px dashed #e5e5e5;
+	overflow: hidden;
+	
 }
 
 .thumbnail{
@@ -97,10 +107,15 @@ h2{
 .post-categories, .post-published{
 	font-family: Georgia, "Times New Roman", Times, serif;
 	color: #aaaaaa;
+	margin: 0 0 3px 0;
 }
 
 .clear{
 	clear: both;
+}
+
+.content-text{
+	margin-left: 180px;
 }
 
 
