@@ -32,7 +32,7 @@ h2{
 	width: 241px;
 	height: 46px;
 	float: left;
-	margin: 43px 0 42px 160px;
+	margin: 43px 0 42px 10px;
 }
 
 #banner{
@@ -87,17 +87,19 @@ h2{
 
 #content{
 	margin-right: 300px;
-	padding: 30px 38px 0 10px
+	padding: 15px 38px 0 10px
 }
 
 .post{
 	border-bottom: 1px dashed #e5e5e5;
 	overflow: hidden;
+	margin-top: 15px;
 	
 }
 
 .thumbnail{
 	float: left;
+	margin-bottom: 15px;
 }
 
 .thumbnail img{
@@ -116,6 +118,10 @@ h2{
 
 .content-text{
 	margin-left: 180px;
+}
+
+.text-article{
+	margin: 8px 0 15px 0;
 }
 
 
