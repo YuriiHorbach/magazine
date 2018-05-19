@@ -21,6 +21,7 @@ h2{
 	margin: 0 0 6px 0;
 }
 
+
 #header{
 	min-width: 960px;
 	max-width: 1200px;
@@ -80,8 +81,6 @@ h2{
 
 #sidebar{
 	width: 300px;
-	height: 400px;
-	background: #b2b2b2;
 	float: right;
 }
 
@@ -125,4 +124,42 @@ h2{
 }
 
 
+#sidebar h3{
+	font: 15px Arial #999999;
+	font-weight: bold;	
+	text-transform: uppercase;
+	background: url(../images/sidebar-texture.png) repeat-x 0 4px;
+	padding-left: 18px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
 
+
+#sidebar h3 span{
+	background: url(../images/main-bg.jpeg);
+	padding: 0 8px;
+}
+
+#sidebar form{
+	width: 220px;
+	margin: 0 auto;
+}
+
+.text-field{
+	width: 140px;
+	height: 31px;
+	background: url(../images/search-field.png) no-repeat;
+	float: left;
+}
+
+.text-field input{
+	background: none;
+	border: none;
+	font-size: 12px;
+	color: #b1b1b1;
+	padding: 9px 10px;
+	width: 120px;
+	height: 12px;
+
+
+}
