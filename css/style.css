@@ -50,7 +50,7 @@ h2{
 
 }
 
-#in-menu, #wrapper{
+#in-menu, #wrapper, #middle-content{
 	min-width: 960px;
 	max-width: 1200px;
 	margin: 0 auto;
@@ -217,16 +217,66 @@ h2{
 	margin-bottom: 14px;
 }
 
+#pagination{
+	margin: 34px 0;
+	overflow: hidden;
+}
+
 #pagination ul li{
 	float: left;
+	margin-right:  2px;
+
 }
 
 #pagination ul li a{
 	display: block;
-	padding: 13px 16px 14px 15px;
-
-	
-
+	padding: 7px 13px;
+	border-bottom: 3px solid #cccccc;
 }
 
+#pagination ul li a:hover{
+	text-decoration: none;
+	background: #e7e7e7;
+}
+
+#pagination .current, #pagination .current:hover{
+	background: #333333;
+	border-bottom: 3px solid #333333;
+	color: #ffffff;
+}
+
+#pagination .next{
+	padding-bottom:7px;
+	padding-top:7px;
+}
+
+#footer{
+	min-width: 960px;
+}
+
+#footer-top{
+	height: 19px;
+	background: url(../images/footer-top.png) repeat-x;
+}
+
+
+
+#footer-middle{
+	background: url(../images/footer-middle-bg.png);
+}
+
+#middle-content{
+	overflow: hidden;
+}
+
+.footer-box{
+	padding-top:30px;
+	width: 30%;
+	margin-right: 5%;
+	float: left;
+}
+
+#footer-box3{
+	margin-right: 0;
+}
 
