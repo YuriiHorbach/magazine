@@ -217,5 +217,16 @@ h2{
 	margin-bottom: 14px;
 }
 
+#pagination ul li{
+	float: left;
+}
+
+#pagination ul li a{
+	display: block;
+	padding: 13px 16px 14px 15px;
+
+	
+
+}
 
 
