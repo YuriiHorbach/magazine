@@ -40,7 +40,7 @@ h2{
 	width: 468px;
 	height: 60px;
 	float: right;
-	margin: 35px 160px 36px 
+	margin: 35px 12px 36px 
 }
 
 #top-menu{
@@ -50,7 +50,7 @@ h2{
 
 }
 
-#in-menu, #wrapper, #middle-content{
+#in-menu, #wrapper, #middle-content, #bottom-content{
 	min-width: 960px;
 	max-width: 1200px;
 	margin: 0 auto;
@@ -87,15 +87,21 @@ h2{
 
 #content{
 	margin-right: 300px;
-	padding: 15px 38px 0 10px
+	padding: 30px 38px 0 10px
 }
+
+
 
 .post{
 	border-bottom: 1px dashed #e5e5e5;
 	overflow: hidden;
 	margin-top: 15px;
-	
 }
+
+.post:first-child{
+	margin-top: 0;
+}
+
 
 .thumbnail{
 	float: left;
@@ -164,7 +170,7 @@ h2{
 }
 
 .first-row, .second-row{
-	width: 270px;
+	width: 290px;
 	margin: 0 auto;
 }
 
@@ -174,7 +180,7 @@ h2{
 	padding: 0 20px 0 0;
 }
 
-.right: {
+.right {
 	float: right;
 	display: block;
 	padding: 0 20px 0 0;
@@ -264,6 +270,11 @@ h2{
 
 #footer-middle{
 	background: url(../images/footer-middle-bg.png);
+
+}
+
+#footer-middle{
+	padding: 0 0 62px 0;
 }
 
 #middle-content{
@@ -297,6 +308,7 @@ h2{
 	font-size: 14px;
 	font-weight: bold;
 	width: 220px;
+	margin-bottom: 8px;
 }
 
 #footer h3 span{
@@ -305,7 +317,35 @@ h2{
 	
 }
 
-#recent-post ul li{
-	padding: 10px 0;
+#archives{
+	padding-right: 10px;
 }
+
+#recent-post ul li, #archives ul li {
+	padding: 10px 0;
+	background: url(../images/footer-dashed-line.png) repeat-x left bottom;
+}
+
+#recent-post ul li a, #archives ul li a{
+	color: #e0e0e0;
+}
+
+#footer-bottom{
+	background: url(../images/footer-bottom-part2.png) repeat-x;
+}
+
+#footer-bottom p{ 
+	margin: 0;
+	padding: 25px 0;
+}
+
+#bottom-content{
+	overflow: hidden;
+}
+
+#footer-bottom a{ 
+	color: #8f8f8f;
+}
+
+
 
